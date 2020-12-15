@@ -1,0 +1,22 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AidanGuarniere/jest-another-RPG.git"
+  },
+  "author": "Aidan Guarniere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AidanGuarniere/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/AidanGuarniere/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
