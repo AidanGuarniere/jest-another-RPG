@@ -1,5 +1,4 @@
 const Player = require("../lib/Player");
-
 const Potion = require("../lib/Potion");
 
 jest.mock("../lib/Potion");
@@ -66,7 +65,7 @@ test("subtracts from player's health", () => {
   expect(player.health).toBe(0);
 });
 
-test("gets player's attack vaalue", () => {
+test("gets player's attack value", () => {
   const player = new Player("Dave");
   player.strength = 10;
 
