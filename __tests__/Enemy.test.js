@@ -3,7 +3,7 @@ const Potion = require("../lib/Potion.js");
 
 jest.mock("../lib/Potion");
 
-test("creates an enemt object", () => {
+test("creates an enemy object", () => {
   const enemy = new Enemy("goblin", "sword");
 
   expect(enemy.name).toBe("goblin");
